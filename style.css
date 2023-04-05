@@ -1,0 +1,134 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background: gray;
+    font-family: 'Roboto Mono', Helvetica, sans-serif;
+}
+
+#container {
+    width: 90%;
+    margin: 0px auto;
+}
+
+header {
+    background: black;
+    display: flex;
+    border-bottom: 10px solid white;
+}
+
+header img {
+    height: 260px;
+    border-radius: 50%;
+}
+
+header img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+header h1 {
+    height: 30px;
+    width: 100%;
+    text-align: center;
+    line-height: 250px;
+    color: #ffffff;
+    font-size: 50px;
+}
+
+nav {
+    background: black;
+    height: 700px;
+    width: 250px;
+    border: 5px double white;
+    border-radius: 5px;
+}
+
+nav ul li {
+    list-style: none;
+    margin: 10px;
+    color: #ffffff;
+    font-size: 20px;
+    line-height: 50px;
+}
+
+section {
+    background: #ffffff;
+    width: 100%;
+}
+
+#content {
+    display: flex;
+    border-bottom: 10px solid #ffffff;
+}
+
+#contenido2 {
+    background: #ffffff;
+    padding: 50px;
+}
+
+.article {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-left: 30px;
+    color: black;
+    padding-bottom: 15px;
+    border-bottom: 1px solid black;
+    border-radius: 5px;
+}
+
+.clear {
+    clear: both;
+}
+
+footer {
+    text-align: center;
+    background: black;
+    color: white;
+    line-height: 50px;
+    border: 5px double white;
+    border-radius: 5px;
+}
+
+.articleimg {
+    margin-left: 30px;
+    border-bottom: 1px solid black;
+    margin-top: 100px;
+    border-radius: 5px;
+}
+
+.articleimg:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.article img:hover {
+    transform: scale(1.1);
+    cursor: pointer;
+}
+
+.menu a {
+    background-color: black;
+    color: white;
+    text-decoration: none;
+    float: left;
+    padding: 10px;
+    display: block;
+}
+
+.menu a:hover {
+    background-color: white;
+    color: black;
+    border-radius: 10px;
+}
+
+.menu {
+    overflow: hidden;
+}
+
+#contenido2 article img {
+    border-radius: 15px;
+}
